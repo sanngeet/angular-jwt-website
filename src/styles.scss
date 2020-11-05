@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* Importing Bootstrap SCSS file. */
+
+@import "~bootstrap/scss/bootstrap";
+@import "./../node_modules/font-awesome/css/font-awesome.css";
+div.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+//customise scrollbar
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c757d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.white {
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.font-1hrem {
+    font-size: 1.5rem;
+}
